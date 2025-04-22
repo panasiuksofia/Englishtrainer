@@ -1,0 +1,102 @@
+#include <iostream>
+#include <string>
+#include <locale>
+
+using namespace std;
+
+int main() {
+    // Підключення локалі для підтримки кирилиці
+   setlocale(LC_ALL, "en_US.UTF-8");  // Замість uk_UA
+
+
+    cout << "=== Теорiя з граматики англiйської мови ===" << endl;
+
+    // Present Simple
+    cout << "\n1. Present Simple (Теперiшнiй простий час)\n";
+    cout << "Форма:\n";
+    cout << "- Affirmative (стверджувальна):\n";
+    cout << "  I/you/we/they + V → I work\n";
+    cout << "  he/she/it + Vs → He works\n";
+    cout << "- Interrogative (запитальна):\n";
+    cout << "  Do/Does + subject + V?\n";
+    cout << "  Do you work? / Does he play?\n";
+    cout << "- Negative (вiдмова):\n";
+    cout << "  I/you/we/they don’t + V\n";
+    cout << "  he/she/it doesn’t + V\n";
+    cout << "Використання:\n";
+    cout << "- Для звичок (I brush my teeth every day).\n";
+    cout << "- Для фактiв (Water boils at 100℃).\n";
+    cout << "- Для розкладів (The train leaves at 6).\n";
+    cout << "- Для коментарiв/iнструкцiй (I want you to study).\n";
+    cout << "Маркери часу:\n";
+    cout << "always, usually, often, sometimes, never, every day, on Mondays, in the morning, at night.\n";
+
+    // Present Continuous
+    cout << "\n2. Present Continuous (Теперiшнiй тривалий час)\n";
+    cout << "Форма:\n";
+    cout << "- Affirmative:\n";
+    cout << "  I am Ving, he/she/it is Ving, you/we/they are Ving\n";
+    cout << "- Interrogative:\n";
+    cout << "  Am I Ving? Is he Ving? Are they Ving?\n";
+    cout << "- Negative:\n";
+    cout << "  I’m not Ving, he isn’t Ving, they aren’t Ving\n";
+    cout << "Використання:\n";
+    cout << "- Для дiй, що вiдбуваються зараз (She is reading a book now).\n";
+    cout << "- Для тимчасових дiй (I am living in Kyiv).\n";
+    cout << "- Для заздалегiдь запланованих майбутнiх подiй (I am meeting him tomorrow).\n";
+    cout << "- Для скарг (He is always complaining).\n";
+    cout << "Маркери часу:\n";
+    cout << "now, at the moment, currently, these days.\n";
+
+    // Present Perfect
+    cout << "\n3. Present Perfect (Теперiшнiй доконаний час)\n";
+    cout << "Форма:\n";
+    cout << "- Affirmative:\n";
+    cout << "  I/you/we/they have + V3, he/she/it has + V3\n";
+    cout << "- Interrogative:\n";
+    cout << "  Have/Has + subject + V3?\n";
+    cout << "- Negative:\n";
+    cout << "  haven’t / hasn’t + V3\n";
+    cout << "Використання:\n";
+    cout << "- Для дiй у минулому, що мають результат у теперiшньому (I have finished my homework).\n";
+    cout << "- Для дiй, що сталися у невизначений час (She has been to France).\n";
+    cout << "- Для нещодавнiх подiй (I have just eaten lunch).\n";
+    cout << "- Для дiй у перiодах, що ще не завершенi (They have worked here for 5 years).\n";
+    cout << "Маркери часу:\n";
+    cout << "ever, never, just, already, yet, for, since.\n";
+
+    // Past Simple
+    cout << "\n4. Past Simple (Минулий простий час)\n";
+    cout << "Форма:\n";
+    cout << "- Affirmative:\n";
+    cout << "  Subject + V2 (I worked, she went)\n";
+    cout << "- Interrogative:\n";
+    cout << "  Did + subject + V?\n";
+    cout << "  Did you work? / Did he play?\n";
+    cout << "- Negative:\n";
+    cout << "  didn’t + V\n";
+    cout << "  I didn’t work.\n";
+    cout << "Використання:\n";
+    cout << "- Для завершених дiй у минулому (I visited Paris last year).\n";
+    cout << "- Для звичок або станiв у минулому (She lived in London when she was young).\n";
+    cout << "- Для дiй у послiдовностi (He woke up, had breakfast, and left the house).\n";
+    cout << "Маркери часу:\n";
+    cout << "yesterday, last week, in 2010, ago.\n";
+
+    // Past Continuous
+    cout << "\n5. Past Continuous (Минулий тривалий час)\n";
+    cout << "Форма:\n";
+    cout << "- Affirmative:\n";
+    cout << "  was/were + Ving (I was working, they were playing)\n";
+    cout << "- Interrogative:\n";
+    cout << "  Was I Ving? Were they Ving?\n";
+    cout << "- Negative:\n";
+    cout << "  wasn’t/weren’t + Ving (I wasn’t working, they weren’t playing)\n";
+    cout << "Використання:\n";
+    cout << "- Для дiй, що вiдбувалися у певний момент у минулому (I was reading at 5 PM).\n";
+    cout << "- Для дiй, що перериваються iншими дiями (I was working when the phone rang).\n";
+    cout << "Маркери часу:\n";
+    cout << "while, when, at that moment, all day.\n";
+
+    return 0;
+}
